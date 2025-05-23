@@ -40,11 +40,11 @@ This project focuses on identifying
     Place[Rating])
 
 ### 4️⃣ Visualization 
-• 	**Line and Bar Chart Chart:** Shows superhost % and total hosts over time .
-•   **Waterfall Chart:** Highlights estimated net income 
-•   **Bar Chart:** Displays price per guest of different places 
-•   **Line Chart:** Average rating of different places  
-•   **Slicers:** Allow filtering by district, date, size, room type and superhost
+-**Line and Bar Chart Chart:** Shows superhost % and total hosts over time .
+-**Waterfall Chart:** Highlights estimated net income 
+-**Bar Chart:** Displays price per guest of different places 
+-**Line Chart:** Average rating of different places  
+-**Slicers:** Allow filtering by district, date, size, room type and superhost
 
 ## 📊 Findings & Insights 🏡  
 - **Chelsea is the best neighborhood** for renting out a property on Airbnb, offering optimal returns.  
