@@ -27,16 +27,16 @@ This project focuses on identifying
 - Created relationships between Places, Hosts and Neighborhood in Power BI's data model using fact and dimension tables for optimized queries.
 
 ### 3️⃣ Developed Key Dax Measures 
-**Total Hosts** = COUNT(Host[Year Joined])
-**Total Superhost** = CALCULATE(
+- **Total Hosts** = COUNT(Host[Year Joined])
+- **Total Superhost** = CALCULATE(
     COUNT(Host[Year Joined]),
     Host[Superhost] = "Yes")
-**Superhost %** = DIVIDE([Total Superhost], [Total Hosts])
-**Total Neighbourhood** = CALCULATE(DISTINCTCOUNT(Neighbourhood[Neighborhood]))
-**Price per guest** = DIVIDE(
+- **Superhost %** = DIVIDE([Total Superhost], [Total Hosts])
+- **Total Neighbourhood** = CALCULATE(DISTINCTCOUNT(Neighbourhood[Neighborhood]))
+- **Price per guest** = DIVIDE(
     SUM(Place[Price]),
     SUM(Place[Accommodates]))
-**Average Rating** = AVERAGE(
+- **Average Rating** = AVERAGE(
     Place[Rating])
 
 ### 4️⃣ Visualization 
